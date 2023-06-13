@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Connect Dots Game</title>
@@ -9,11 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <!--CABECERA-->
     <header>
         <img src="./img/logo.png" alt="logo" height="65px">
-    </header>   
+    </header>
     <!--FORMULARIO DE USUARIO-->
     <main>
         <div>
@@ -21,9 +23,9 @@
         </div>
         <form action="juego.html" id="formEntrada">
             <div class="itemform">
-                <label for="nick">introduce tu nick</label>
+                <label for="nick">introduce tu nick (*)</label>
                 <input type="text" name="nick" value="@" id="nicka" readonly>
-                <input type="text" name="nick" id="nick">
+                <input type="text" name="nick" id="nick" required minlength="2">
             </div>
             <div class="itemform">
                 <label for="email">correo electrónico</label>
@@ -39,6 +41,9 @@
                 </select>
             </div>
             <div class="itemform">
+                <p>* Obligatorio</p>
+            </div>
+            <div class="itemform">
                 <input type="submit" value="JUGAR">
             </div>
         </form>
@@ -48,5 +53,7 @@
         <p>Proyecto personal JavaScript</p>
     </footer>
     <script src="/js/app.js"></script>
+    <script src="/js/datosUsuario.js"></script>
 </body>
+
 </html>

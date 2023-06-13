@@ -1,27 +1,33 @@
 body {
     background-color: #f5f5f5;
-    font-family: 'Rubik',  ;
+    font-family: 'Rubik', ;
 }
-header, footer {
+
+header,
+footer {
     text-align: center;
     width: 300px;
     margin: 30px auto 0px auto;
 }
+
 main {
     width: 300px;
     margin: 30px auto 0px auto;
 }
+
 form {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
     font-size: 18px;
 }
-label{
+
+label {
     display: block;
     margin-bottom: 10px;
     font-family: "Rubik";
 }
+
 input {
     display: inline;
     font-family: "Rubik";
@@ -32,20 +38,23 @@ input {
     font-weight: 200;
     font-size: 18px;
 }
-input[type="email"]{
+
+input[type="email"] {
     border: 1px solid #ced4da;
     font-weight: 200;
-    font-size:18px;
+    font-size: 18px;
     border-radius: 5px;
     width: 278px;
-}    
-input[type="submit"]{
+}
+
+input[type="submit"] {
     background-color: #fd0c49;
     color: #fff;
     font-weight: 400;
     border-radius: 5px;
     width: 100%;
 }
+
 select {
     font-family: "Rubik";
     width: 100%;
@@ -54,8 +63,14 @@ select {
     font-weight: 200;
     font-size: 18px;
 }
+
+p {
+    font-weight: 100;
+    font-size: 14px;
+}
+
 /*ID's*/
-#nicka{
+#nicka {
     float: left;
     font-family: "rubik";
     text-align: center;
@@ -68,7 +83,8 @@ select {
     font-size: 18px;
 
 }
-#error{
+
+#error {
     text-align: center;
     color: #fd0c49;
     font-weight: 200;
