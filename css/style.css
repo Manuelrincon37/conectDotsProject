@@ -1,18 +1,18 @@
 body {
     background-color: #f5f5f5;
-    font-family: 'Rubik', ;
+    font-family: 'Poppins', sans-serif;
 }
 
 header,
 footer {
     text-align: center;
-    width: 300px;
     margin: 30px auto 0px auto;
+    width: 300px;
 }
 
 main {
-    width: 300px;
     margin: 30px auto 0px auto;
+    width: 300px;
 }
 
 form {
@@ -25,18 +25,18 @@ form {
 label {
     display: block;
     margin-bottom: 10px;
-    font-family: "Rubik";
 }
 
 input {
     display: inline;
-    font-family: "Rubik";
-    width: 235px;
+    font-family: 'Poppins', sans-serif;
+    width: 236px;
     border: 1px solid #ced4da;
     padding: 10px;
     border-radius: 0px 5px 5px 0px;
     font-weight: 200;
     font-size: 18px;
+
 }
 
 input[type="email"] {
@@ -56,7 +56,7 @@ input[type="submit"] {
 }
 
 select {
-    font-family: "Rubik";
+    font-family: 'Poppins', sans-serif;
     width: 100%;
     border: 1px solid #ced4da;
     border-radius: 5px;
@@ -69,10 +69,25 @@ p {
     font-size: 14px;
 }
 
-/*ID's*/
+footer {
+    font-weight: 100;
+}
+
+/*Clases*/
+.avatarItem {
+    background-color: #fff;
+    border: solid 1px #fd0c49;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+/*IDs*/
 #nicka {
     float: left;
-    font-family: "rubik";
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     width: 20px;
     background-color: #ced4da;
@@ -81,13 +96,38 @@ p {
     border-radius: 5px 0px 0px 5px;
     font-weight: 400;
     font-size: 18px;
-
 }
 
 #error {
     text-align: center;
     color: #fd0c49;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 14px;
-    margin: 10px 0px 10px 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#avatar {
+    float: left;
+}
+
+#avatarContainer {
+    display: flex;
+    background-color: #fff;
+    border: solid 1px #fd0c49;
+    border-radius: 5px;
+    width: 125px;
+    height: 125px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#avatargrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 30px;
 }

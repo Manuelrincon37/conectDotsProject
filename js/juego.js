@@ -5,5 +5,4 @@
 
 //Test
 getDatosUsuario();
-comprobarDatosUsuario();
-if (!comprobarDatosUsuario()) location = "index.html";
+if (!comprobacionDatosUsuario()) location = "index.html";
