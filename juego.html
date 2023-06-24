@@ -5,13 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilosjuego.css">
     <title>Connect Dots Game</title>
 </head>
 
 <body>
-    <h1>Connect Dots Game</h1>
-    <!-- EL CODIGO JS-->
-    <script src="./js/datosUsuario.js"></script>
+    <main>
+        <div id="contenedorJuego">
+            <div id="juego">
+
+            </div>
+            <div id="tituloJuego">
+                <p>Connect Dots Game</p>
+            </div>
+        </div>
+        <div id="contenedorUsuario">
+            <form id="form_entrada" action="juego.html">
+                <div class="itemform">
+                    <img src="./img/avatar1.png" width="26" id="avatarImg">
+                    <input type="text" id="nick" value="nick" readonly>
+                </div>
+                <div class="itemform">
+                    <label for="puntuacion">puntuacion</label>
+                    <input type="text" id="puntuacion" value="0" class="inputJuego" readonly>
+                </div>
+                <div class="itemform">
+                    <label for="tmpo">tiempo restante</label>
+                    <input type="text" id="tmpo" value="30" class="inputJuego" readonly>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        Proyecto personal JavaScript
+    </footer>
+    <script src="./js/datosUSuario.js"></script>
     <script src="./js/juego.js"></script>
 </body>
 
